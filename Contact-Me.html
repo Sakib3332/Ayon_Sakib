@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/my-team-1.png">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- main css file -->
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="scss/responsive.css">
+    <title>Contact Me</title>
+</head>
+
+<body onload="myFunction()">
+
+    <div id="preloader">
+    </div>
+
+    <main>
+        <!-- // Contact Section Start // -->
+        <section id="contact">
+            <div class="container">
+                <div class="row d-inline-block">
+                    <div class="col-lg-3">
+                        <div class="back_button">
+                            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-6">
+                        <div class="container_heading">
+                            <h6>Contact</h6>
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact_info_item">
+                            <div class="icon">
+                                <span class="fas fa-map-marker-alt"></span>
+                            </div>
+                            <div class="body">
+                                <h5>Address</h5>
+                                <p>47 No: West Kafrul Mollapara Dhaka 1207
+                                    Near By Shahid Jamil Road </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact_info_item">
+                            <div class="icon">
+                                <span class="fas fa-envelope-open-text"></span>
+                            </div>
+                            <div class="body">
+                                <h5>E-Mail Phone:</h5>
+                                <p>iamsakib610@gmail.com</p>
+                                <p>+88017062XXX04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="mailto:iamsakib610@gmail.com" id="contactForm" method="POST" class="was-validated">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Your Name *" class="form-control" name="Name"
+                                    autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="number" placeholder="Enter Your Number *" class="form-control" name="phone"
+                                    autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter Your E-Mail *" class="form-control" name="Email"
+                                    autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group custom-select-wrapper">
+                                <select name="Select" id="contact_subject" class="form-control" autocomplete="off">
+                                    <option value="Please" class="Select custom-option">Please Select</option>
+                                    <option value="Sales" class="Select custom-option">Sales</option>
+                                    <option value="Service" class="Select custom-option">Service</option>
+                                    <option value="Support" class="Select custom-option">Support</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <textarea name="Massage" id="" cols="20" rows="8" placeholder="Write Your Massage *"
+                                    class="form-control" style="resize: none;"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 justify-content-center">
+                            <div class="form-group text-center">
+                                <input type="Submit" value="Submit" class="btn btn-primary me-3">
+                                <input type="Reset" value="Reset" class="btn btn-primary">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.489039209957!2d90.37260827715859!3d23.783794946018013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0b51c1ea303%3A0x357e0512f861104!2zNDcg4Ka24Ka54KeA4KamIOCmnOCmvuCmruCmv-CmsiDgprjgp5zgppUsIOCmouCmvuCmleCmvg!5e0!3m2!1sbn!2sbd!4v1620494341216!5m2!1sbn!2sbd"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- // Contact Section End // -->
+    </main>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+    <!-- jquery cdn -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- magnific-popup.min.js -->
+    <script src="js/magnific-popup.min.js"></script>
+    <!-- waypoint js -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- counter up min.js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- our AOS data -->
+    <script src="js/aos.min.js"></script>
+    <!-- main js  -->
+    <script src="js/style.js"></script>
+    <script>
+
+        var preloader = document.getElementById("preloader");
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

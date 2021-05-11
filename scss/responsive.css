@@ -1,0 +1,220 @@
+@media screen and (max-width: 991.98px) {
+  #hero_header {
+    text-align: center;
+    padding: 108Px 0;
+  }
+  .inner_hero_info p {
+    padding-right: 0;
+    line-height: 33px;
+  }
+  .header-shrink {
+    background: #fff;
+  }
+  .navbar-logo {
+    padding: 25px 0;
+    margin-left: 15px;
+  }
+  .header .nav-item .nav-link.active {
+    background-color: #2443f0;
+    color: #fff;
+  }
+  .header .nav-item .nav-link:not(.active):after {
+    height: 0px;
+  }
+  .header .nav-item .nav-link {
+    color: #000;
+    padding: 15px 20px;
+    font-size: 18px;
+    background: #fff;
+    opacity: 1;
+    border-bottom: 1px solid #000;
+  }
+  .navbar-nav {
+    max-height: 235px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .header .nav-item:hover a {
+    color: #fff;
+    opacity: 1;
+    background: #2443f0;
+  }
+  .header .nav-item a {
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
+  }
+  .header .nav-item .nav-link::after {
+    width: 0;
+    height: 0px;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar-toggler {
+    padding: .25rem 0.75rem;
+    font-size: 1.55rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-right: 15px;
+    background-color: #2661e5;
+    border: 2px solid white;
+  }
+  header .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .view_works_btn {
+    margin: 40px 0;
+  }
+  .image_border {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    border: none;
+    -webkit-transition: none;
+    transition: none;
+    width: 100%;
+  }
+  .image_border:hover img {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .image_border .profile_pic {
+    width: 75%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .image_border .profile_pic:hover img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  #about .about-img {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .about-me-details {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .header .hire_me_btn {
+    display: none;
+  }
+  #skills .skill_image {
+    margin-bottom: 30px;
+  }
+  .right-side {
+    display: none;
+  }
+  .left-side {
+    display: none;
+  }
+  .ul-style {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .inner_hero_info h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .inner_hero_info h4 {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .inner_hero_info p {
+    font-size: 0.9rem;
+  }
+  .view_works_btn {
+    margin-top: 5px;
+    margin-bottom: 35px;
+  }
+  .image_border .profile_pic {
+    width: 60%;
+  }
+  .right-side {
+    display: none;
+  }
+  .left-side {
+    display: none;
+  }
+  .ul-style {
+    display: none;
+  }
+  #hero_header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  #about .about-img {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #about .about-img .video-btn {
+    left: 50%;
+    right: initial;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  #about .about-img .video-border-line {
+    right: initial;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: initial;
+    pointer-events: none;
+  }
+  .about-me-details h6 {
+    font-size: 16px;
+  }
+  .about-me-details {
+    padding: 0 15px;
+  }
+  #counter .section_heading h2 {
+    font-size: 30px;
+  }
+  #how_i_work .how_i_work_heading h2 {
+    font-size: 31px;
+  }
+  #how_i_work .how_i_work_items .arrow_dashed_img {
+    display: none;
+  }
+  #skills .skill_image .check_icon {
+    display: none;
+  }
+  #skills .skill_image .check_icon_border {
+    display: none;
+  }
+  #skills .skill_image {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    width: 100%;
+  }
+  #skills .skills_details .skill_items {
+    margin-bottom: 30px;
+  }
+  #skills .coding_skill .coding_skill_item {
+    margin-bottom: 30px;
+  }
+  #contact .contact_info_item {
+    display: block;
+  }
+  #contact .contact_info_item .icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #contact .contact_info_item .body p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
